@@ -1,11 +1,18 @@
-* {
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-body {
-    height: 100vh;
-    background: #161513;
-    color: white;
-    font-family: 'Roboto';
+html{
+    font-size: 16px;
 }
+body {
+    min-height: 100vh;
+    background: linear-gradient(120deg,#1e1e2f,#3b3b5a);
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.5;
+}
+

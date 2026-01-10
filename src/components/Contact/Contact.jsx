@@ -42,13 +42,13 @@ const onSubmit = async (event) => {
           <p>I'm currently available to take on  new projects,so fell free to send me a message about anything that you want me to work on.You can contact anytime.</p>
           <div className='contact-details'>
             <div className='contact-detail'>
-              <img src={mail_icon} alt='' /> <p>komal03sharma@gmail.com</p>
+              <img src={mail_icon} alt='' className='mail-icon' /> <p>komal03sharma@gmail.com</p>
             </div>
             <div className='contact-detail'>
-              <img src={call_icon} alt='' /> <p>+91 7991177459</p>
+              <img src={call_icon} alt='' className='call-icon' /> <p>+91 7991177459</p>
             </div>
             <div className='contact-detail'>
-              <img src={location_icon} alt='' /> <p>Patna, India</p>
+              <img src={location_icon} alt='' className='location-icon' /> <p>Patna, India</p>
             </div>
           </div>
         </div>
