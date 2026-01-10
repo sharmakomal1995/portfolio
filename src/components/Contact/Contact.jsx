@@ -1,5 +1,5 @@
 import React from 'react'
-import './contact.css'
+import './Contact.css'
 // import theme_pattern from '../../assets/theme_pattern.png'
 import mail_icon from '../../assets/mail_icon.png'
 import location_icon from '../../assets/location_icon.png'
