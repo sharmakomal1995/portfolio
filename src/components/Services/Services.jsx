@@ -3,6 +3,7 @@ import './Services.css'
 import theme_pattern from '../../assets/theme_pattern.png'
 import Services_Data from '../../assets/Services_data'
 import arrow_icon from '../../assets/arrow_icon.svg'
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -18,8 +19,8 @@ function Services() {
                       <h2>{service.title}</h2>
                       <p>{service.desc}</p>
                       <div className='services-readmore'>
-                          <p>Read More</p>
-                          <img src={arrow_icon} alt='arrow' className='arrow_icon'/>
+                          <Link to={`/service/${service.s_no}`} className='readmore-link'>Read More<img src={arrow_icon} alt='arrow' className='arrow_icon'/></Link>
+                          
                       </div>
 
                   </div>
@@ -32,4 +33,4 @@ function Services() {
 }
 import './Services.css'
 
-export default Services
+export default Services;

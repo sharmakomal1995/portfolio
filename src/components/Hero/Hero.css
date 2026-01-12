@@ -127,5 +127,6 @@
    .hero-social-icons img{
       width: 56px;
       height: 56px;
+      margin-top:-40px;
    }
  }

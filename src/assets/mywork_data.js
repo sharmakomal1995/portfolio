@@ -10,7 +10,8 @@ const mywork_data = [
         w_no: 1,
         w_name: "Portfolio Website",
         desc: "This website was built using React.js and is a personal website.",
-        w_img:project1_img
+        w_img: project1_img,
+        live_link: "https://portfolio-d4d0.onrender.com/"
     },
     {
         w_no: 2,

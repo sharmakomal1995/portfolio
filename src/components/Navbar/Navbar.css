@@ -85,7 +85,7 @@
         padding-top: 80px;
         gap: 2rem;
         background-color: #1f0016;
-        width: 350px;
+        width: 250px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
@@ -115,127 +115,9 @@
         display: none;
     }
     .nav-menu li{
-        font-size: 30px;
+        font-size: 20px;
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;
     }
 }
-/* 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 1.5rem;
-    height: 80px;
-}
-
-.nav-logo {
-    width: 180px;
-    height: auto;
-}
-
-.nav-menu {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 2.5rem;
-    font-size: 1.1rem;
-}
-
-.nav-connect {
-    padding: 0.8rem 1.6rem;
-    border-radius: 50px;
-    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
-    font-size: 1rem;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.nav-connect:hover {
-    transform: scale(1.05);
-}
-
-.anchor-link {
-    text-decoration: none;
-    color: white;
-}
-
-.navbar ul li {
-    position: relative;
-    cursor: pointer;
-}
-
-.navbar ul li::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -6px;
-    width: 0;
-    height: 3px;
-    background: linear-gradient(90deg, #a855f7,#ec4899);
-    border-radius: 10px;
-    transform: translateX(-50%);
-    transition: width 0.3s ease;
-}
-
-.navbar ul li.active::after,
-.navbar ul li:hover::after {
-    width: 40%;
-}
-
-.menu-open,
-.menu-close {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .navbar {
-        padding: 0 1rem;
-    }
-
-    .nav-menu {
-        position: fixed;
-        flex-direction: column;
-        top: 0;
-        right: -100%;
-        width: 300px;
-        height: 100vh;
-        background-color: #1f0016;
-        padding-top: 80px;
-        gap: 2rem;
-        transition: right 0.4s ease;
-        z-index: 10;
-    }
-
-    .menu-open,
-    .menu-close {
-        display: block;
-        width: 28px;
-        height: 28px;
-        cursor: pointer;
-        filter: brightness(0) invert(1);
-    }
-
-    .menu-open {
-        position: fixed;
-        right: 20px;
-    }
-
-    .menu-close {
-        position: absolute;
-        right: 20px;
-        top: 30px;
-    }
-
-    .nav-connect {
-        display: none;
-    }
-
-    .nav-menu li {
-        font-size: 1.2rem;
-        padding-left: 2rem;
-    }
-} */
