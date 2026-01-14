@@ -146,3 +146,33 @@
         line-height: 1.6;
     }
 }
+
+@media(max-width:468px){
+    .services{
+        gap:32px;
+        margin: 32px auto;
+        padding: 0 16px;
+        align-items: center;
+    }
+    .services-title h1{
+        font-size: 40px;
+    }
+    .services-title img{
+        width: 60px;
+        right: 0;
+    }
+    .services-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 12px;
+    }
+    .services-format{
+        padding: 16px;
+    }
+    .services-format h2{
+        font-size: 18px;
+    }
+    .services-format p{
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}

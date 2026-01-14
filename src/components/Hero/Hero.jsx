@@ -16,7 +16,7 @@ return (
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink> </div>
             <a href='/resume.pdf' target='_blank' rel='noopener noreferrer' className='hero-resume'>My Resume</a>
         </div>
-        <div class="hero-social-icons">
+        <div className="hero-social-icons">
             <a href='https://github.com/sharmakomal1995' target='_blank' className='github-icon' rel='noopener noreferrer'>
                 <img src={githubIcon} alt='GitHub'/></a>
             <a href='https://www.linkedin.com/in/komal-kumari-35aa6a178/' target='_blank' className='linkedin-icon' rel='noopener noreferrer'>

@@ -112,3 +112,32 @@
         margin: 2.5rem auto;
     }
 }
+
+@media(max-width:468px){
+    .mywork{
+        gap: 10px;
+        margin: 16px 8px;
+        align-items: center;
+    }
+    .mywork-title h1{
+        font-size:40px;
+    }
+    .mywork-title img{
+        width: 60px;
+        right: 0;
+    }
+    .mywork-container{
+        margin-top: 25px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 12px;
+    }
+    .mywork-container img{
+        height: 120px;
+    }
+    .mywork-showmore{
+        padding: 8px 22px;
+        font-size: 12px;
+        margin: 30px auto;
+    }
+
+}

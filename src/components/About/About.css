@@ -148,3 +148,54 @@
         text-align: center;
     }
 }
+
+@media(max-width:468px){
+    .about-title{
+        justify-content: center;
+        text-align: center;
+    }
+    .about-title h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .about-title img{
+        width: 60px;
+        right: 0;
+    }
+    .about-section{
+        align-items: center;
+        text-align: center;
+    }
+    .about-left{
+        display: none;
+    }
+    .about-para{
+        text-align: center;
+        font-size: 14px;
+    }
+    .about-skill{
+        align-items: center;
+    }
+    .about-skill p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .about-skill hr{
+        margin: 0 auto;
+    }
+    .about-achivements{
+        justify-content: center;
+        text-align: center;
+       
+    }
+    .about-achivement{
+        align-items: center;
+        text-align: center;
+    }
+    .about-achivement h1{
+        font-size: 22px;
+    }
+    .about-achivement p{
+        font-size: 14px;
+    }
+}
