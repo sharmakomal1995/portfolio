@@ -1,19 +1,31 @@
-# Portfolio Website
+#Developer Portfolio
 
-This is my personal portfolio website built using React.
-It showcase my skills,projects,services,and contact details.
+A personal developer portfolio built using React.js to showcase my projects, technical skills, and development journey.
 
-## Features
-1. Responsive design for all devices
-2. About Me section
-3. Services section
-4. Projects showcase
-5. contact form
+![Portfolio Screenshot](./screenshots/portfolio.png)
 
-## Technologies Used
-1. HTML / CSS
-2. JavaScript
-3. React
+##Tech Stack
+React.js
+JavaScript
+HTML5
+CSS3
+Bootstrap
+Features
+Responsive design for mobile and desktop
+Projects section showcasing full stack applications
+Skills section highlighting MERN stack expertise
+Clean and modern UI built with reusable React components
+
+##Installation
+###Install dependencies
+npm install
+###Run the project
+npm start
+
+##Author
+KOMAL SHARMA
+
+
 
 ## Live Demo
 https://portfolio-d4d0.onrender.com/
