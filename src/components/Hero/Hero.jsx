@@ -14,7 +14,7 @@ return (
         <p><i>I build responsive web applications using <span className='heighlight'>React,Node.js & MongoDB</span> .I have build 5 real-world projects and love solving real problems through code.</i> </p>
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink> </div>
-            <a href='/komal resume.pdf' target='_blank' rel='noopener noreferrer' className='hero-resume'>My Resume</a>
+            <a href='/komal-resume.pdf' target='_blank' rel='noopener noreferrer' className='hero-resume'>My Resume</a>
         </div>
         <div className="hero-social-icons">
             <a href='https://github.com/sharmakomal1995' target='_blank' className='github-icon' rel='noopener noreferrer'>
