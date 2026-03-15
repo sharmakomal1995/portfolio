@@ -16,7 +16,7 @@ const MyWork = () => {
                 return 
                 <a
                   key={index}
-                  href={work.live_link}   // yahan Render ka link aayega
+                  href={work.live_link}  
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mywork-card">
