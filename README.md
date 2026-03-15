@@ -1,8 +1,8 @@
 # Developer Portfolio
 
-![Portfolio Screenshot](./screenshots/portfolio.png)
-
 A personal developer portfolio built using React.js to showcase my projects, technical skills, and development journey.
+
+![Portfolio Screenshot](./screenshots/portfolio.png)
 
 ## Tech Stack
 - React.js
