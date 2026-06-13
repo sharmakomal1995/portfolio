@@ -21,12 +21,14 @@ const About = () => {
                       <p>Currently seeking an opportunity as a <b><span className='heighlight'>Full-Stack/Fronted/Backend Developer</span></b> where I can apply my skills and grow as a professional developer.</p>
                   </div>
                   <div className="about-skills">
-                      <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "50%" }} /></div>
-                      <div className="about-skill"><p>React JS</p><hr style={{ width: "70%" }} /></div>
-                      <div className="about-skill"><p>JavaScript</p><hr style={{ width: "60%" }} /></div>
+                      <div className="about-skill"><p>HTML5 & CSS3</p><hr style={{ width: "50%" }} /></div>
+                      <div className="about-skill"><p>ReactJS</p><hr style={{ width: "70%" }} /></div>
+                      <div className="about-skill"><p>JavaScript & JAVA</p><hr style={{ width: "60%" }} /></div>
                       <div className="about-skill"><p>Node.js & Express.js</p><hr style={{ width: "50%" }} /></div>
-                      <div className='about-skill'><p>MongoDB</p><hr style={{ width: "70%" }} /></div>
+                      <div className='about-skill'><p>MongoDB & MySQL</p><hr style={{ width: "70%" }} /></div>
                       <div className='about-skill'><p>Git,GitHub,VS Code</p><hr style={{ width: "60%" }} /></div>
+                      <div className='about-skill'><p>DSA</p><hr style={{ width: "60%" }} /></div>
+                      <div className='about-skill'><p>REST APIs</p><hr style={{ width: "60%" }} /></div>
             </div>
             </div>
           </div>
@@ -37,7 +39,7 @@ const About = () => {
               </div>
               <hr />
               <div className="about-achivement">
-                  <h1>2</h1>
+                  <h1>3</h1>
                   <p>PROJECTS COMPLETED</p>
               </div>
               <hr />
